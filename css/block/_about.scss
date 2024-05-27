@@ -1,0 +1,64 @@
+.about_container {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.logo {
+    max-width: 150px;
+    /* Максимальная ширина логотипа */
+    margin-top: 10px;
+    /* Отступ сверху для логотипа */
+}
+
+.content {
+    padding: 80px 20px 20px;
+    /* Добавлен отступ сверху, чтобы контент не перекрывал логотип */
+}
+
+h2 {
+    color: #FF5733;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #FFC300;
+}
+
+@keyframes animateBackground {
+    0% {
+        background-color: #00008B;
+    }
+
+    /* Темно-синий */
+    25% {
+        background-color: #8A2BE2;
+    }
+
+    /* Сине-фиолетовый */
+    50% {
+        background-color: #00FF00;
+    }
+
+    /* Зеленый */
+    75% {
+        background-color: #FFD700;
+    }
+
+    /* Золотой */
+    100% {
+        background-color: #00008B;
+    }
+
+    /* Темно-синий */
+}
